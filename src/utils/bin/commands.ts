@@ -41,8 +41,7 @@ export const about = async (args: string[]): Promise<string> => {
 Welcome to my website!
 More about me:
 'sumfetch' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
+'resume' - my latest resume.`;
 };
 
 // Donate
@@ -86,8 +85,7 @@ directories`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+  return 'this function has not been coded unfortunately. Perhaps someday it will be added.';
 };
 
 export const date = async (args: string[]): Promise<string> => {
